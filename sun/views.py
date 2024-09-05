@@ -8,5 +8,3 @@ def register(request):
 def register_action(request):
     id = request.GET.get("id")
     return HttpResponse(id)
-
-# Create your views here.
