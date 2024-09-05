@@ -7,6 +7,3 @@ class Register(models.Model):
     UserEmail = models.CharField(max_length=50)
     UserPhone = models.CharField(max_length=50)
     UserAddress = models.CharField(max_length=50)
-
-    
-# Create your models here.
